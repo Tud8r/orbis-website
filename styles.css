@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2C3930;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3930;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /* make li stretch fully */
+
+    height: 100%;
+}
+
+.nav-item {
+
+    float: right;
+}
+
+li a {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* "200px" was invalid */
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    color: white;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #2C3930;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 80%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 100%;
+    width: 220px;
+}
+
+.right {
+    background-color: rgb(177, 141, 155);
+    height: 100%;
+    width: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/trees.png);
+    background-color: #000000;
+    height: 90vh;
+}
+
+
+.center {
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: normal;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1150px;
+    height: 180px;
+}
+
+.button {
+    align-items: center;
+    padding-left: 50px;
+    gap: 50px;
+
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+
+
+    margin: 20px;
+
+    display: flex;
+    width: 400px;
+    background-color: #31743F;
+}
+
+.features {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 533px;
+}
+
+.feature {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-size: 46px;
+
+
+    color: white;
+    color: #34853A;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    background-color: #DCD7C9;
+    height: 90%;
+    border-radius: 50%;
+
+
+}
+
+.feature:hover {
+    cursor: default;
+    background-color: #34853A;
+    color: white;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 10px;
+    background-color: #DCD7C9;
+    border-radius: 20px;
+}
+
+.probleme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.problem-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+p {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.problem {
+    border-radius: 10px;
+    font-family: "League Spartan", sans-serif;
+    background-color: #D9D9D9;
+    display: block;
+    /* Ensure each list item takes up the full width */
+    margin-bottom: 10px;
+    /* Add spacing between items */
+
+    /* Adjust font size as needed */
+    color: #583F2F;
+    /* Optional: Add color */
+    text-align: center;
+    /* Center the text inside each block */
+
+}
+
+.bottom {
+    font-family: "League Spartan", sans-serif;
+    width: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 70px;
+}
+
+.bottom-text {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 50px;
+    color: #F5F5F5;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0945C;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5100px;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    width: 600px;
+    height: 90px;
+    border-radius: 20px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3930;
+    height: 10vh;
+}
+
+.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3930;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /* make li stretch fully */
+
+    height: 100%;
+}
+
+.bottom-orbis {
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 100%;
+    width: 220px;
+    margin-right: 10px;
+}
